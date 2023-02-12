@@ -172,7 +172,7 @@ Distributed under the MIT License. See `LICENSE` for more information. The attac
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-We would like to thank all the vendors we contacted and reported these attacks, along with the retrieved bug bounties we received. Especially, MediaTek, which reserved [CVE-2022-32666](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-32666) for its products. Also, we would like to give some acknowledgement to our [Wi-Fi fuzzer](https://github.com/efchatz/WPAxFuzz), which helps us at the early stages of this study, [the README template repo](https://github.com/othneildrew/Best-README-Template), which helped us to create this README file and [logo.com](https://logo.com/), which allowed us to create the Bl0ck attack tool logo.
+We would like to thank all the vendors we contacted and reported these attacks, along with the retrieved bug bounties we received. Especially, MediaTek, which reserved [CVE-2022-32666](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-32666) for its products. Also, we would like to give some acknowledgement to our Wi-Fi fuzzer named [WPAxFuzz](https://github.com/efchatz/WPAxFuzz), which helps us at the early stages of this study, [the README template repo](https://github.com/othneildrew/Best-README-Template), which helped us to create this README file and [logo.com](https://logo.com/), which allowed us to create the Bl0ck attack tool logo.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
