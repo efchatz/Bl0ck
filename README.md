@@ -71,8 +71,8 @@ The following table demonstrates each issue we observed for each AP we managed t
 |Asus RT88AXU|✗| ✓  | –  |
 |Vendor |  ✓* | ✗  |  – |
 |  TP-Link AX10v1|  ✗ | ✓  |  – |
-|  D-Link DIR X-1560 |  ✓* | ✗  | CVE-2022-32666  |
-|  Zyxel NWA50AX | ✓  | ✗  |  CVE-2022-32666 |
+|  D-Link DIR X-1560 |  ✓* | ✗  | [CVE-2022-32666](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-32666)  |
+|  Zyxel NWA50AX | ✓  | ✗  |  [CVE-2022-32666](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-32666) |
 |  Huawei AX3 |  ✓ | ✗  | –  |
 |  Linksys MR7350 |  ✓ | ✗  | – |
 | Hostapd |  ✓ | ✓  | – |
