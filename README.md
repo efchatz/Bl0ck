@@ -77,7 +77,7 @@ The following table demonstrates each issue we observed for each AP we managed t
 |  Linksys MR7350 |  ✓ | ✗  | – |
 | Hostapd |  ✓ | ✓  | – |
 
-From our evaluation, attack I (BAR) and BARS is based on the IEEE 802.11 standard. This means that most APs will be vulnerable when operate on Wi-Fi 5 or 6. This happens because there is no such protection in the relevant standard, to handle spoofed BAR frames with invalid SSN. On the other hand, attack II (BA) is basically based on vendor's specific misconfiguration, which accepts unsolicited BA frames. Note that is attack affects both WPA2 and WPA3, since they both operate on WiFi 5 and 6. As a result, this attack does not work against Wi-Fi 4 (802.11n) networks, regardless of the authentication method they use.
+From our evaluation, attack I (BAR) and BARS is based on the IEEE 802.11 standard. This means that most APs will be vulnerable when operate on Wi-Fi 5 or 6. This happens because there is no such protection in the relevant standard, to handle spoofed BAR frames with invalid SSN. On the other hand, attack II (BA) is basically based on vendor's specific misconfiguration, which accepts unsolicited BA frames. Note that is attack affects both WPA2 and WPA3, since they both operate on WiFi 5 and 6. As a result, this attack does not work against Wi-Fi 4 (802.11n) networks, regardless of the authentication method they use. 
 
 ### Built With
 
@@ -148,6 +148,8 @@ optional arguments:
                         and 1 (enable)
 
 ```
+
+Regarding the concurrent frames (--num flag) a WNIC needs to exploit an AP, this differs for each AP. Generally, 10 to 100 frames are enought to achieve this result. It is suggested to start with a low value, like 10 and increase it every time by 10-20, till observing the QoS Data interruption. For the --rand parameter, the BA attack is the most suitable one to be used with. The BAR and BARS ones will rarely have a positive impact against APs. However, if BA attack works and the opposite AP operates with a Wireless IDS, enabling this flag with probably bypass this protection.
 
 <!-- CONTRIBUTING -->
 ## Contributing
