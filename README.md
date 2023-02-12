@@ -168,7 +168,7 @@ Distributed under the MIT License. See `LICENSE` for more information. The attac
 ## Contact
 
 [![LinkedIn][linkedin-shield]][linkedin-url] - Efstratios Chatzoglou -  efchatzoglou@gmail.com  <br />
-[![LinkedIn2][linkedin-shield]][linkedin-url] - Vyron Kampourakis -  brykam@gmail.com  
+[![LinkedIn][linkedin-shield]][linkedin-url2] - Vyron Kampourakis -  brykam@gmail.com  
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -190,9 +190,8 @@ We would like to thank all the vendors we contacted and reported these attacks, 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/efchatz/Bl0ck/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: www.linkedin.com/in/efstratios-chatzoglou-b2b09616b
-[linkedin-shield2]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url2]: www.linkedin.com/in/efstratios-chatzoglou-b2b09616b
+[linkedin-url]: https://www.linkedin.com/in/efstratios-chatzoglou-b2b09616b
+[linkedin-url2]: https://gr.linkedin.com/in/vyron-kampourakis
 [product-screenshot]: images/screenshot.png
 [Python.py]: https://img.shields.io/badge/Python-3.7-blue
 [Python-url]: https://www.python.org/
