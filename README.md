@@ -165,8 +165,8 @@ Distributed under the MIT License. See `LICENSE` for more information. The attac
 <!-- CONTACT -->
 ## Contact
 
-Efstratios Chatzoglou - [![LinkedIn][linkedin-shield]][linkedin-url] - efchatzoglou@gmail.com  <br />
-Vyron Kampourakis - [![LinkedIn2][linkedin-shield]][linkedin-url] - brykam@gmail.com  
+[![LinkedIn][linkedin-shield]][linkedin-url] - Efstratios Chatzoglou -  efchatzoglou@gmail.com  <br />
+[![LinkedIn2][linkedin-shield]][linkedin-url] - Vyron Kampourakis -  brykam@gmail.com  
 
 
 <!-- ACKNOWLEDGMENTS -->
