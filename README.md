@@ -20,8 +20,6 @@
   <p align="center">
     An attack tool to utilize Bl0ck attacks
     <br />
-    <a href="https://github.com/efchatz/Bl0ck"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/efchatz/Bl0ck/issues">Report Bug</a>
     ·
