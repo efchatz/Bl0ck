@@ -14,10 +14,6 @@ Copyright 2023
 
 #sudo python3 Bl0ck.py --sta MAC --ap MAC --wnic wlan0 --attack BA --num 100 --random 0
 
-#if len(args) > 6:
-#    print("Too many arguments")
-#    os._exit(0)
-
 def is_valid(str):
   regex = ("^([0-9A-Fa-f]{2}[:-])" +"{5}([0-9A-Fa-f]{2})|" +"([0-9a-fA-F]{4}\\." +"[0-9a-fA-F]{4}\\." +"[0-9a-fA-F]{4})$")
   match = re.compile(regex)
@@ -98,9 +94,6 @@ try:
     stopAfter = args.frames
     verboseMessages = args.verbose
 
-#check if WNIC is alive
-#sa = subprocess.check_output(['iw dev'], shell=True)
-#print(sa)
 
     if attack == "BAR":
         #Choose subframe
