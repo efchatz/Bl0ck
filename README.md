@@ -77,7 +77,7 @@ The following table demonstrates each issue we observed for each AP we managed t
 |  Linksys MR7350 |  ✓ | ✗  | – |
 | Hostapd |  ✓ | ✓  | – |
 
-
+From our evaluation, attack I (BAR) and BARS is based on the IEEE 802.11 standard. This means that most APs will be vulnerable when operate on Wi-Fi 5 or 6. This happens because there is no such protection in the relevant standard, to handle spoofed BAR frames with invalid SSN. On the other hand, attack II (BA) is basically based on vendor's specific misconfiguration, which accepts unsolicited BA frames. Note that is attack affects both WPA2 and WPA3, since they both operate on WiFi 5 and 6. As a result, this attack does not work against Wi-Fi 4 (802.11n) networks, regardless of the authentication method they use.
 
 ### Built With
 
@@ -172,7 +172,7 @@ Vyron Kampourakis - brykam@gmail.com
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-We would like to thank all the vendors we contacted and reported these attacks, along with the retrieved bug bounties we received. Especially, MediaTek, which reserved CVE-2022-32666 for its products. Also, we would like to give some acknowledgement to our [Wi-Fi fuzzer](https://github.com/efchatz/WPAxFuzz), which helps us at the early stages of this study, [the README template repo](https://github.com/othneildrew/Best-README-Template), which helped us to create this README file and [logo.com](https://logo.com/), which allowed us to create the Bl0ck attack tool logo.
+We would like to thank all the vendors we contacted and reported these attacks, along with the retrieved bug bounties we received. Especially, MediaTek, which reserved [CVE-2022-32666](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-32666) for its products. Also, we would like to give some acknowledgement to our [Wi-Fi fuzzer](https://github.com/efchatz/WPAxFuzz), which helps us at the early stages of this study, [the README template repo](https://github.com/othneildrew/Best-README-Template), which helped us to create this README file and [logo.com](https://logo.com/), which allowed us to create the Bl0ck attack tool logo.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
