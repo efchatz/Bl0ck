@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/efchatz/Bl0ck">
-    <img src="images/bl0ck-logo.png" alt="Logo" width="800" height="600">
+    <img src="images/bl0ck-logo.png" alt="Logo" width="400" height="400">
   </a>
 
   <h3 align="center">Bl0ck attack tool</h3>
