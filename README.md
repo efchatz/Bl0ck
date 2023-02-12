@@ -81,7 +81,7 @@ From our evaluation, attack I (BAR) and BARS is based on the IEEE 802.11 standar
 
 ### Built With
 
-This section lists all major frameworks/libraries used to create this project.
+This section lists all major frameworks/libraries used to create this project. Tested with Python 3.7 and Scapy 2.4.3. Probably other versions of Scapy and Python will be applicable too.
 
 [![Python][Python.py]][Python-url] <br />
 [![Scapy][Scapy]][Scapy-url]
@@ -192,7 +192,7 @@ We would like to thank all the vendors we contacted and reported these attacks, 
 [linkedin-shield2]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url2]: www.linkedin.com/in/efstratios-chatzoglou-b2b09616b
 [product-screenshot]: images/screenshot.png
-[Python.py]: https://img.shields.io/pypi/pyversions/Py
+[Python.py]: https://img.shields.io/badge/Python-3.7-blue
 [Python-url]: https://www.python.org/
 [Scapy]: https://img.shields.io/badge/scapy-2.4.3-blue
 [Scapy-url]: https://github.com/secdev/scapy
