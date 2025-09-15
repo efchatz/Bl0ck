@@ -183,7 +183,7 @@ We would like to thank all the vendors we contacted and reported these attacks, 
 [contributors-url]: https://github.com/efchatz/Bl0ck/contributors
 [stars-shield]: https://img.shields.io/badge/Stars-10-blue?style=for-the-badge
 [stars-url]: https://github.com/efchatz/Bl0ck/stargazers
-[forks-shield]: https://img.shields.io/badge/Forks-0-blue?style=for-the-badge
+[forks-shield]: https://img.shields.io/badge/Forks-1-blue?style=for-the-badge
 [forks-url]: https://github.com/efchatz/Bl0ck/network/members
 [issues-shield]: https://img.shields.io/badge/Issues-0-lightgrey?style=for-the-badge
 [issues-url]: https://github.com/efchatz/Bl0ck/issues
